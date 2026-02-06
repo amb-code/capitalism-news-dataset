@@ -4,18 +4,18 @@
 
 The dataset includes one negative class (0) and 12 positive classes (1-12) of news about the economy and society. For the convenience of building a classification algorithm, class 0 has been added to the dataset. Positive classes:
 
-1: Protest
-2: Workers’ struggle
-3: Labor relations
-4: Living conditions
-5: Decline of sectors
-6: Creditworthiness
-7: Inequality
-8: Repression
-9: Atlas Shrugged
-10: Economic relations
-11: Combat operations
-12: Other
+1. Protest
+2. Workers’ struggle
+3. Labor relations
+4. Living conditions
+5. Decline of sectors
+6. Creditworthiness
+7. Inequality
+8. Repression
+9. Atlas Shrugged
+10. Economic relations
+11. Combat operations
+12. Other
 
 Column description:
 class : int {0,1,2,...12}
