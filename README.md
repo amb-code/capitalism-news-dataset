@@ -2,7 +2,9 @@
 
 ## News categories about social conflicts and contradictions of society
 
-The dataset includes one negative class (0) and 12 positive classes (1-12) of news about the economy and society. For the convenience of building a classification algorithm, class 0 has been added to the dataset. Positive classes:
+The dataset includes one negative class (0) and 12 positive classes (1-12) of news about the economy and society. For the convenience of building a classification algorithm, class 0 has been added to the dataset.
+
+Names of positive classes:
 
 1. Protest (rus, Протест)
 2. Workers’ struggle (rus, Борьба трудящихся)
