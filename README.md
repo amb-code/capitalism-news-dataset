@@ -18,12 +18,13 @@ The dataset includes one negative class (0) and 12 positive classes (1-12) of ne
 12. Other (rus, Прочее)
 
 Column description:
-class : int {0,1,2,...12}
-label : name of class
-text : sentence
-keywords : main words from text in normal form
-url : news url internet link
-class-validation: type of annotation check
+
+1. class : int {0,1,2,...12}
+2. label : name of class
+3. text : sentence
+4. keywords : main words from text in normal form
+5. url : news url internet link
+6. class-validation: type of annotation check
 
 ## Sources
 1. https://github.com/amb-code/capitalism-news-dataset
