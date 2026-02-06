@@ -32,11 +32,17 @@ Column description:
 
 ## Collection methodology
 Step 1: annotate by hand for multiclass task part of GDDR dataset (https://www.kaggle.com/datasets/ireshin/gddr-news).
+
 Step 2: fit 4 BERT models (2 binary classificators [0 or >0], 2 multiclass models [0, 1, ..., 12]).
+
 Step 3: take random kaggle news dataset and label it with 2 binary BERT classificators (from step 2), take ~60000 with class 0.
+
 Step 4: throughout 2025 year, collect news from various global media outlets with urls and label it with 4 BERT models (from step 2), take ~10000 with class &gt;0.
 
 RESULT ~100 000 news in dataset.
+
 Result step 1: ~10000 news with class >0 (human-hand) and ~20000 news with class =0 (human-hand).
+
 Result step 3: ~60000 news with class =0 (2x-BERT-ensemble).
+
 Result step 4: ~10000 news with class >0 (4x-BERT-ensemble).
